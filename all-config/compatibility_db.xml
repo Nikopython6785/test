@@ -1,0 +1,19 @@
+<compatibility>
+  <cvb_driver>
+    <version number="11.02.002">V7.5 SR2</version>
+    <version number="11.02.008">V7.5 SR2, V8</version>
+    <version number="12.00.007">V7.5 SR2, V8, V8 SR1</version>
+    <version number="12.00.003">V7.5 SR2, V8, V8 SR1</version>
+    <version number="12.01.001">2016, V7.5 SR2, V8, V8 SR1</version>
+    <version number="12.01.003">2016, V7.5 SR2, V8, V8 SR1</version>
+    <version number="12.01.004">2016, 2017, V7.5 SR2, V8, V8 SR1</version>
+    <version number="13.00.002">2017, 2018</version>
+    <version number="13.00.005">2017, 2018</version>
+    <version number="13.00.005b">2017, 2018</version>
+    <version number="13.00.005d">2017, 2018</version>
+    <version number="13.00.005e">2017, 2018</version>
+    <version number="13.01.002">2018, 2019</version>
+    <version number="13.01.004">2018, 2019</version>
+    <version number="13.01.006">2018, 2019</version>
+  </cvb_driver>
+</compatibility>

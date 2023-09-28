@@ -1,0 +1,8 @@
+1 job(s) exist(s):
+
+next job: 'PreSignInSettingsConfigJSON':
+state: error
+job is in error state: There are currently no active network connections. Background Intelligent Transfer Service (BITS) will try again when an adapter is connected.
+progress: 0 of 18446744073709551615 bytes transferred, 0 of 1 files done
+files:
+	'https://g.live.com/odclientsettings/ProdV2' -> 'C:\Users\user\AppData\Local\Temp\wct21F3.tmp', 0 of 18446744073709551615 bytes transferred

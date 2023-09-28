@@ -1,0 +1,19 @@
+found 0 cameras for system type Grabber
+found 2 cameras for system type GiGE
+allocated 5 buffers for camera.
+allocated 5 buffers for camera.
+camera 0: read infos
+	camera vendor name: STEMMERIMAGING
+	camera model name: mvBlueFOX3-2124G
+	camera device id: "FF900549"
+	camera firmware version: 2.27.1196.1
+camera 0: unlocked-snap
+camera 0: locked-snap
+camera 1: read infos
+	camera vendor name: STEMMERIMAGING
+	camera model name: mvBlueFOX3-2124G
+	camera device id: "FF900509"
+	camera firmware version: 2.27.1196.1
+camera 1: unlocked-snap
+camera 1: locked-snap
+found 4 cameras for system type USB3

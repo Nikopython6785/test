@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings version="1">
+    <sw_rendering enabled="false"/>
+    <safe_mode enabled="false"/>
+    <sw_rendering_remote enabled="false"/>
+    <safe_mode_remote enabled="true"/>
+</settings>

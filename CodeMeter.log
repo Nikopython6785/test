@@ -1,0 +1,1569 @@
+starting 'C:/Program Files (x86)/CodeMeter/Runtime/bin/cmu32.exe' with arguments '--cmdust'
+---
+================================================================================
+**************************** General Information *******************************
+================================================================================
+CmDust Version 6.50 Build 2640 of 2017-09-12
+Copyright (C) 2005-2017 by WIBU-SYSTEMS AG. All rights reserved.
+
+CmDustLog created at 2023-09-12 09:48:16 (UTC)
+CmDust was started from: C:\Users\user\Documents\Résultats\1 -  Gauche\P_USI_A43310_A_D02_00_G
+Current User has NO administrator rights
+================================================================================
+***************************** System Information *******************************
+================================================================================
+OS: Microsoft Windows 10 Pro for Workstations 2009, 64-Bit (C:\WINDOWS\)
+Computer Name:    GOMPC
+Found IP address: 192.168.1.1 | 192.168.2.1 | 192.168.6.1 | 192.168.26.1 | 192.168.254.1 | 169.254.4.1 | 192.168.100.1 | 192.168.4.1 | 192.168.5.1 | 192.168.40.1 | 169.254.104.51 | 127.0.0.1
+Not running inside Virtual Environment.
+USERNAME=user
+USERDOMAIN=GOMPC
+LOGONSERVER=\\GOMPC
+SID = 0
+SESSIONNAME=Console
+New SID 255
+
+Language Settings:
+  Machine:      English
+  Current User: French
+
+DataExecutionProtection state:
+  OPTIN (Only Windows system components and services have DEP applied.)
+Current User has NO administrator rights
+
+Overview of available drives:
+  C:\ = Fix Drive  (966367 MB, 559241 MB free)
+  D:\ = Fix Drive Bus=Usb;WIBU -  CodeMeter-Stick  (38 MB, 0 MB free), contains codemtr.io
+  Z:\ = Remote (Network) Drive
+HID Devices:
+Product : Dell Premium USB Optical Mouse (12310)
+  Vendor:  (0x413c)
+  Serial: 
+Product : Dell KB216 Wired Keyboard (8467)
+  Vendor:  (0x413c)
+  Serial: 
+Product : Dell KB216 Wired Keyboard (8467)
+  Vendor:  (0x413c)
+  Serial: 
+Product : Dell KB216 Wired Keyboard (8467)
+  Vendor:  (0x413c)
+  Serial: 
+================================================================================
+*********************** Relevant registry entries ******************************
+================================================================================
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\WIBU-SYSTEMS\CodeMeter] <All>
+RuntimeVersion <All> = "6.50.2640.503"   
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\WIBU-SYSTEMS\CodeMeter\Server] <All>
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\WIBU-SYSTEMS\CodeMeter\Server\CurrentVersion] <All>
+HelpFile <All> = "C:\Program Files (x86)\CodeMeter\Runtime\help\6.50c"   
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WIBU-SYSTEMS\CodeMeter] <All>
+RuntimeVersion <All> = "6.50.2640.503"   
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WIBU-SYSTEMS\CodeMeter\Server] <All>
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WIBU-SYSTEMS\CodeMeter\Server\CurrentVersion] <All>
+ActionTimeIntervall <All> = "10"   
+ApiCommunicationMode <All> = "1"   
+ApiCommunicationModeServer <All> = "1"   
+BindAddress <All> = "0.0.0.0"   
+CleanUpTimeOut <All> = "120"   
+CmInstanceUid <All> = "0"   
+CmWANPort <All> = "22351"   
+EnabledContainerTypes <All> = "4294967295"   
+ExePath <All> = "C:\Program Files (x86)\CodeMeter\Runtime\bin"   
+HelpFile <All> = "C:\Program Files (x86)\CodeMeter\Runtime\help\6.50c"   
+IsCmWANServer <All> = "0"   
+IsNetworkServer <All> = "0"   
+LastLogCleanup <All> = "747399834"   Thu Sep 07 13:03:54 2023
+LogCleanupTimeout <All> = "336"   
+LogCmActDiag <All> = "1"   
+LogLicenseTracking <All> = "0"   
+LogLicenseTrackingPath <All> = "C:\ProgramData\CodeMeter\LicenseTracking"   
+LogPath <All> = "C:\ProgramData\CodeMeter\Logs"   
+Logging <All> = "0"   
+LtClientsCleanupTime <All> = "2400"   
+MaxMessageLen <All> = "67108864"   
+NetworkAccessFsb <All> = "0"   
+NetworkPort <All> = "22350"   
+NetworkTimeout <All> = "100"   
+ProxyPasswordSecure <All> =****
+ProxyPort <All> = "0"   
+ProxyServer <All> = ""   
+ProxyUser <All> = ""   
+StartAlways <All> = "1"   
+StartDaemon <All> = "0"   
+SystemStartThreshold <All> = "300"   
+TimeServerTimeout <All> = "20"   
+TimeServerURL1 <All> = "cmtime.codemeter.com"   
+TimeServerURL2 <All> = "cmtime.codemeter.us"   
+TimeServerURL3 <All> = "cmtime.codemeter.de"   
+UDPCachingTime <All> = "20"   
+UDPWaitingTime <All> = "1000"   
+UseUmsDA <All> = "1"   
+WaitForServiceAfterSystemStart <All> = "120"   
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WIBU-SYSTEMS\CodeMeter\Server\CurrentVersion\AccessControl] <All>
+Enabled <All> = "0"   
+RuleAction1 <All> = "Allow"   
+RuleIds <All> = "00 00 00 00"   
+RuleType1 <All> = "Default"   
+RuleValue1 <All> = ""   
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WIBU-SYSTEMS\CodeMeter\Server\CurrentVersion\Backup] <All>
+2-1884219 <All> = "614934107"   Thu Jun 27 09:01:47 2019
+2-2912586 <All> = "614957510"   Thu Jun 27 15:31:50 2019
+3-4039082 <All> = "647514854"   Wed Jul 08 11:14:14 2020
+3-4537514 <All> = "747814528"   Tue Sep 12 08:15:28 2023
+Interval <All> = "24"   
+Path <All> = "C:\ProgramData\CodeMeter\Backup"   
+UpdateCertifiedTime <All> = "0"   
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WIBU-SYSTEMS\CodeMeter\Server\CurrentVersion\BorrowClient] <All>
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WIBU-SYSTEMS\CodeMeter\Server\CurrentVersion\BorrowManage] <All>
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WIBU-SYSTEMS\CodeMeter\Server\CurrentVersion\BorrowServer] <All>
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WIBU-SYSTEMS\CodeMeter\Server\CurrentVersion\CmAct] <All>
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WIBU-SYSTEMS\CodeMeter\Server\CurrentVersion\CmAct\ErrorLogger] <All>
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WIBU-SYSTEMS\CodeMeter\Server\CurrentVersion\CmAct\PSNs] <All>
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WIBU-SYSTEMS\CodeMeter\Server\CurrentVersion\HTTP] <All>
+DigestAuthentication <All> = "0"   
+PreparedBorrowingConfiguration <All> = "0"   
+RemoteRead <All> = "1"   
+RemoteWrite <All> = "0"   
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WIBU-SYSTEMS\CodeMeter\Server\CurrentVersion\ServerSearchList] <All>
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WIBU-SYSTEMS\CodeMeter\Server\CurrentVersion\ServerSearchList\Server1] <All>
+Address <All> = "127.0.0.1"   
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WIBU-SYSTEMS\CodeMeter\Server\CurrentVersion\ServerSearchList\Server2] <All>
+Address <All> = "127.0.0.1"   
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WIBU-SYSTEMS\CodeMeter\Server\CurrentVersion\ServerSearchList\Server3] <All>
+Address <All> = "localhost"   
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WIBU-SYSTEMS\CodeMeter\Server\CurrentVersion\TripleModeRedundancy] <All>
+TmrEnabled <All> = "0"   
+
+Could not find or read in registry: HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\WIBU-SYSTEMS\SmartShelter
+Could not find or read in registry: HKEY_LOCAL_MACHINE\SOFTWARE\WIBU-SYSTEMS\SmartShelter
+Could not find or read in registry: HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Adobe\Acrobat Reader\6.0\InstallPath
+Could not find or read in registry: HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Adobe\Acrobat Reader\7.0\InstallPath
+Could not find or read in registry: HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Adobe\Acrobat Reader\8.0\InstallPath
+Could not find or read in registry: HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Adobe\Acrobat Reader\9.0\InstallPath
+Could not find or read in registry: HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Adobe\Acrobat Reader\10.0\InstallPath
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Adobe\Acrobat Reader\11.0\InstallPath] <All>
+ <All> = "C:\Program Files (x86)\Adobe\Reader 11.0\Reader"   
+
+Could not find or read in registry: HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Adobe\Adobe Acrobat\6.0\InstallPath
+Could not find or read in registry: HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Adobe\Adobe Acrobat\7.0\InstallPath
+Could not find or read in registry: HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Adobe\Adobe Acrobat\8.0\InstallPath
+Could not find or read in registry: HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Adobe\Adobe Acrobat\9.0\InstallPath
+Could not find or read in registry: HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Adobe\Adobe Acrobat\10.0\InstallPath
+Could not find or read in registry: HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Adobe\Adobe Acrobat\11.0\InstallPath
+Could not find or read in registry: HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Adobe\Adobe Acrobat\DC\InstallPath
+Could not find or read in registry: HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Adobe\Acrobat Reader\DC\InstallPath
+Could not find or read in registry: HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Adobe\Adobe Acrobat\2015\InstallPath
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\CodeMeter.exe] <All>
+DependOnService <All> =  "winmgmt" "Tcpip"   deMeter\Runtime\bin\CodeMeter.exe""   
+Description <All> = "CodeMeter Runtime Server"   
+DisplayName <All> = "CodeMeter Runtime Server"   
+ErrorControl <All> = "0"   
+ImagePath <All> = ""C:\Program Files (x86)\CodeMeter\Runtime\bin\CodeMeter.exe""   
+ObjectName <All> = "LocalSystem"   
+Start <All> = "2"   
+Type <All> = "16"   
+
+Could not find or read in registry: HKEY_LOCAL_MACHINE\SOFTWARE\WIBU-SYSTEMS\AxProtector
+Could not find or read in registry: HKEY_LOCAL_MACHINE\SOFTWARE\WIBU-SYSTEMS\CM Password Manager
+Could not find or read in registry: HKEY_LOCAL_MACHINE\SOFTWARE\WIBU-SYSTEMS\CM Password Manager
+[HKEY_CURRENT_USER\SOFTWARE\Wow6432Node\WIBU-SYSTEMS]
+
+[HKEY_CURRENT_USER\SOFTWARE\Wow6432Node\WIBU-SYSTEMS\CodeMeterCC]
+ProcessID = "12384"   
+
+[HKEY_CURRENT_USER\SOFTWARE\WIBU-SYSTEMS]
+
+[HKEY_CURRENT_USER\SOFTWARE\WIBU-SYSTEMS\CodeMeterCC]
+ProcessID = "12384"   
+
+Could not find or read in registry: HKEY_CURRENT_USER\SOFTWARE\WIBU-SYSTEMS AG
+Could not find or read in registry: HKEY_CURRENT_USER\SOFTWARE\WIBU-SYSTEMS AG
+Could not find or read in registry: HKEY_LOCAL_MACHINE\SOFTWARE\Griffin Technologies\SecuriKey
+Could not find or read in registry: HKEY_CURRENT_USER\SOFTWARE\Steganos
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\USBSTOR]
+"Start"="3"
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\usbhub]
+"Start"="3"
+
+[HKEY_CLASSES_ROOT\Interface\{00040000-0000-1010-8005-0000C06B5161}]
+"(Default)"="ITrigger"
+
+[HKEY_CLASSES_ROOT\WibuCmTrigger.Trigger\CLSID]
+"(Default)"="{00040000-0000-1011-8005-0000C06B5161}"
+
+There is no CodeMeter.ini file.
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+================================================================================
+***************************** Relevant files ***********************************
+================================================================================
+File: C:\Program Files (x86)\CodeMeter\Runtime\bin\CodeMeter.exe; Version: 6.50 (Build 2640, Count 503)
+File: WibuCm32.dll; Version: 6.50 (Build 2640, Count 503)
+  found in location: C:\WINDOWS\SysWOW64\WibuCm32.dll
+File: WibuCm64.dll; Version: 6.50 (Build 2640, Count 503)
+  found in location: C:\WINDOWS\SYSTEM32\WibuCm64.dll
+File: C:\Program Files (x86)\CodeMeter\Runtime\bin\CodeMeterCC.exe; Version: 6.50 (Build 2640, Count 503)
+File: C:\Program Files (x86)\CodeMeter\Runtime\bin\CodeMeterCC_de.qm; Timestamp: 2017-09-12 06:50
+File: C:\Program Files (x86)\CodeMeter\Runtime\bin\CodeMeterCC_en.qm; Timestamp: 2017-09-12 06:50
+File: C:\Program Files (x86)\CodeMeter\Runtime\bin\CodeMeterCC_es.qm; Timestamp: 2017-09-12 06:50
+File: C:\Program Files (x86)\CodeMeter\Runtime\bin\CodeMeterCC_fr.qm; Timestamp: 2017-09-12 06:50
+File: C:\Program Files (x86)\CodeMeter\Runtime\bin\CodeMeterCC_it.qm; Timestamp: 2017-09-12 06:50
+File: C:\Program Files (x86)\CodeMeter\Runtime\bin\CodeMeterCC_ja.qm; Timestamp: 2017-09-12 06:50
+File: C:\Program Files (x86)\CodeMeter\Runtime\bin\CodeMeterCC_ru.qm; Timestamp: 2017-09-12 06:50
+File: C:\Program Files (x86)\CodeMeter\Runtime\bin\CodeMeterCC_zh.qm; Timestamp: 2017-09-12 06:50
+File: C:\Program Files (x86)\CodeMeter\Runtime\bin\CmRmtAct32.dll; Version: 6.50 (Build 2640, Count 503)
+File: C:\Program Files\CodeMeter\Runtime\bin\CmRmtAct64.dll; Version: 6.50 (Build 2640, Count 503)
+File: WibucmJNI.dll; Version: 6.50 (Build 2640, Count 503)
+  found in location: C:\WINDOWS\SysWOW64\WibucmJNI.dll
+File: WibucmJNI64.dll; Version: 6.50 (Build 2640, Count 503)
+  found in location: C:\WINDOWS\SYSTEM32\WibucmJNI64.dll
+File: C:\Program Files (x86)\CodeMeter\Runtime\bin\WibuCmTrigger32.dll; Version: 6.50 (Build 2640, Count 503)
+File: C:\Program Files\CodeMeter\Runtime\bin\WibuCmTrigger64.dll; Version: 6.50 (Build 2640, Count 503)
+File: C:\WINDOWS\SysWOW64\WibuXpm4J32.dll; Version: 10.00 (Build 2640, Count 503)
+File: C:\WINDOWS\system32\WibuXpm4J64.dll; Version: 10.00 (Build 2640, Count 503)
+File: C:\WINDOWS\system32\DRIVERS\usbstor.sys; Version: 10.00 (Build 19041, Count 1949)
+File: C:\WINDOWS\system32\DRIVERS\usbhub.sys; Version: 10.00 (Build 19041, Count 1)
+File: C:\WINDOWS\system32\DRIVERS\Usbd.sys; Version: 10.00 (Build 19041, Count 1)
+File: C:\WINDOWS\system32\WinInet.dll; Version: 11.00 (Build 19041, Count 3031)
+File: C:\WINDOWS\system32\usbui.dll; Version: 10.00 (Build 19041, Count 1)
+File: C:\WINDOWS\system32\DRIVERS\Usbport.sys; Version: 10.00 (Build 19041, Count 1)
+File: C:\WINDOWS\system32\DRIVERS\usbuhci.sys; Version: 10.00 (Build 19041, Count 1)
+File: C:\WINDOWS\system32\DRIVERS\usbehci.sys; Version: 10.00 (Build 19041, Count 1)
+File: C:\ProgramData\CodeMeter\Backup; Timestamp: 2023-09-12 08:15
+File: C:\ProgramData\CodeMeter\CmAct; Timestamp: 2019-03-15 16:36
+File: C:\ProgramData\CodeMeter\Logs; Timestamp: 2019-03-15 16:36
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+================================================================================
+******************************* .NET Framework *********************************
+================================================================================
+
+Installed .NetFramework versions:
+.NET Framework 1.0 is not installed.
+.NET Framework 1.1 is not installed.
+.NET Framework 2.0 service pack 2 is installed.
+.NET Framework 3.0 service pack 2 is installed.
+.NET Framework 3.5 service pack 1 is installed.
+.NET Framework 4.0 (client) is installed with no service packs.
+.NET Framework 4.0 (full) is installed with no service packs.
+.NET Framework 4.7 or later is installed.
+
+In this context relevant files:
+File: C:\WINDOWS\assembly\GAC\WibuCmNET\3.34.190.500__01d86e1eb0c69c23\WibuCmNET.dll; Version: 3.34 (Build 190, Count 500)
+File: C:\WINDOWS\assembly\GAC\WibuCmNET\6.40.228.501__01d86e1eb0c69c23\WibuCmNET.dll; Version: 6.40 (Build 228, Count 501)
+File: C:\WINDOWS\assembly\GAC\policy.2.0.WibuCmNET\3.34.190.500__01d86e1eb0c69c23\policy.2.0.WibuCmNET.dll; Version: 3.34 (Build 190, Count 500)
+File: C:\WINDOWS\assembly\GAC\policy.2.1.WibuCmNET\3.34.190.500__01d86e1eb0c69c23\policy.2.1.WibuCmNET.dll; Version: 3.34 (Build 190, Count 500)
+File: C:\WINDOWS\assembly\GAC\policy.2.10.WibuCmNET\3.34.190.500__01d86e1eb0c69c23\policy.2.10.WibuCmNET.dll; Version: 3.34 (Build 190, Count 500)
+File: C:\WINDOWS\assembly\GAC\policy.2.20.WibuCmNET\3.34.190.500__01d86e1eb0c69c23\policy.2.20.WibuCmNET.dll; Version: 3.34 (Build 190, Count 500)
+File: C:\WINDOWS\assembly\GAC\policy.3.0.WibuCmNET\3.34.190.500__01d86e1eb0c69c23\policy.3.0.WibuCmNET.dll; Version: 3.34 (Build 190, Count 500)
+File: C:\WINDOWS\assembly\GAC\policy.3.20.WibuCmNET\3.34.190.500__01d86e1eb0c69c23\policy.3.20.WibuCmNET.dll; Version: 3.34 (Build 190, Count 500)
+File: C:\WINDOWS\assembly\GAC\policy.3.30.WibuCmNET\3.34.190.500__01d86e1eb0c69c23\policy.3.30.WibuCmNET.dll; Version: 3.34 (Build 190, Count 500)
+File: C:\WINDOWS\assembly\GAC\policy.3.31.WibuCmNET\3.34.190.500__01d86e1eb0c69c23\policy.3.31.WibuCmNET.dll; Version: 3.34 (Build 190, Count 500)
+File: C:\WINDOWS\assembly\GAC\policy.3.32.WibuCmNET\3.34.190.500__01d86e1eb0c69c23\policy.3.32.WibuCmNET.dll; Version: 3.34 (Build 190, Count 500)
+File: C:\WINDOWS\assembly\GAC\policy.3.33.WibuCmNET\3.34.190.500__01d86e1eb0c69c23\policy.3.33.WibuCmNET.dll; Version: 3.34 (Build 190, Count 500)
+File: C:\WINDOWS\assembly\GAC\policy.4.0.WibuCmNET\6.40.228.501__01d86e1eb0c69c23\policy.4.0.WibuCmNET.dll; Version: 6.40 (Build 228, Count 501)
+File: C:\WINDOWS\assembly\GAC\policy.4.1.WibuCmNET\6.40.228.501__01d86e1eb0c69c23\policy.4.1.WibuCmNET.dll; Version: 6.40 (Build 228, Count 501)
+File: C:\WINDOWS\assembly\GAC\policy.4.10.WibuCmNET\6.40.228.501__01d86e1eb0c69c23\policy.4.10.WibuCmNET.dll; Version: 6.40 (Build 228, Count 501)
+File: C:\WINDOWS\assembly\GAC\policy.4.20.WibuCmNET\6.40.228.501__01d86e1eb0c69c23\policy.4.20.WibuCmNET.dll; Version: 6.40 (Build 228, Count 501)
+File: C:\WINDOWS\assembly\GAC\policy.4.30.WibuCmNET\6.40.228.501__01d86e1eb0c69c23\policy.4.30.WibuCmNET.dll; Version: 6.40 (Build 228, Count 501)
+File: C:\WINDOWS\assembly\GAC\policy.4.40.WibuCmNET\6.40.228.501__01d86e1eb0c69c23\policy.4.40.WibuCmNET.dll; Version: 6.40 (Build 228, Count 501)
+File: C:\WINDOWS\assembly\GAC\policy.4.50.WibuCmNET\6.40.228.501__01d86e1eb0c69c23\policy.4.50.WibuCmNET.dll; Version: 6.40 (Build 228, Count 501)
+File: C:\WINDOWS\assembly\GAC\policy.5.0.WibuCmNET\6.40.228.501__01d86e1eb0c69c23\policy.5.0.WibuCmNET.dll; Version: 6.40 (Build 228, Count 501)
+File: C:\WINDOWS\assembly\GAC\policy.5.10.WibuCmNET\6.40.228.501__01d86e1eb0c69c23\policy.5.10.WibuCmNET.dll; Version: 6.40 (Build 228, Count 501)
+File: C:\WINDOWS\assembly\GAC\policy.5.20.WibuCmNET\6.40.228.501__01d86e1eb0c69c23\policy.5.20.WibuCmNET.dll; Version: 6.40 (Build 228, Count 501)
+File: C:\WINDOWS\Microsoft.NET\assembly\GAC_32\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll; Version: 4.08 (Build 4644, Count 0)
+File: C:\WINDOWS\Microsoft.NET\assembly\GAC_64\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll; Version: 4.08 (Build 4644, Count 0)
+File: C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll; Version: 2.00 (Build 50727, Count 9171)
+File: C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll; Version: 4.08 (Build 4644, Count 0)
+File: C:\WINDOWS\Microsoft.NET\Framework64\v2.0.50727\mscorlib.dll; Version: 2.00 (Build 50727, Count 9171)
+File: C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\mscorlib.dll; Version: 4.08 (Build 4644, Count 0)
+==========================Get Additional Information============================
+Currently running CodeMeter (ID 4928)
+SecuriKey is not active.
+Internet Explorer Version: 9.11.19041.0.
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+================================================================================
+********************************** CodeMeter ***********************************
+================================================================================
+Getting information about currently running CodeMeter
+  Local system:
+    Name:     GOMPC
+    IP:       169.254.104.51
+    Platform: Microsoft Windows 10
+  CodeMeter:                                6.50 (Build 2640, Count 503) of 2017-09-12.
+  Loaded security library (licensor site):  6.50 (Build 2640, Count 503) of 2017-09-12.
+  CodeMeterAct:                             6.50 (Build 2640, Count 503) of 2017-09-12.
+  Library version used by this application: 6.50 (Build 2640, Count 503) of 2017-09-12.
+  Signature check successful
+
+================================================================================
+******************************** CmContainers **************************************
+================================================================================
+
+There are 1 CmContainers found
+  CmDongle with serial number 3-4537514 and firmware version 4.10. 
+
+Specific CmContainer Data:
+  CmStick 3-4537514 --------------------------------------------------------------
+    Firmware Version:    4.10
+    BKI/UKI:             0x01 / 0x00
+    System time:         2023-09-12 09:48:12 (UTC)
+    Box time:            2023-09-12 09:48:12 (UTC)
+    Certified time:      2018-09-04 03:56:57 (UTC)
+    Info:                CmDongle has no flash memory.
+    Access:              The CmDongle's device node is D:
+    Free license memory: 314376 bytes (99%)
+    Error Sense:         0x01 [ 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 ]
+    Configuration:       LocalDisk with ActivePartition
+    File System:         FAT32
+
+    Boot-Code:           Int18 Boot Code
+    Field Update Capabilities:  HID                          
+    Crypt Capabilities:  AES
+                         AES direct
+                         AES rid
+                         ECC
+                         ECC extended
+                         PTP
+                         RSA 768
+                         RSA 1024
+                         RSA 2048
+                         CM_AUTH_EXTENDED2                          
+    Available PIOs:      Text
+                         User Data
+                         Extended Protected Data
+                         Protected Data
+                         Secret Data
+                         Hidden Data
+                         Usage Period
+                         Expiration Time
+                         Activation Time
+                         Unit Counter
+                         Feature Map
+                         Product Code
+                         Maintenance Period
+                         32bit Unit Counter                          
+    UFC Capabilities:    UFC support
+                         License Transfer
+                         Generic Programming Sequences                          
+    Blurry Box Capabilities:  
+    Configuration Capabilities:  CmPrepared                          
+
+    CodeMeter chip:
+    Silicon Chip Type:  0x97
+    Silicon Rev.:       0x16
+    Firmware (BTC):     0x180718bc / 0x180718bc / 0x10
+    Mdfa:                0x539
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+================================================================================
+Listing some interesting details about CmDongles
+CmDongle 3-4537514:
+  No entry for CM Password Manager found (0:100000)
+Checking CmActLicense Plugins:
+
+  No CmAct Plugins found.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+======================Listing of local clusters with current state===================
++------------------------------------------------------------------------------
+| All available licenses:
++------------------------------------------------------------------------------
+| No.:    0  Serial: 3-4537514  FC:PC 100473:512  FeatureMap 0x400  LQ 0
+|            User= 0  NoUser= 0  Excl= 0  Station= 0   Used= 0 Free= 1 Total= 1
++------------------------------------------------------------------------------
+| No.:    1  Serial: 3-4537514  FC:PC 100473:1024  FeatureMap 0x400  LQ 0
+|            User= 0  NoUser= 0  Excl= 0  Station= 0   Used= 0 Free= 1 Total= 1
++------------------------------------------------------------------------------
+| No.:    2  Serial: 3-4537514  FC:PC 100473:1280  FeatureMap 0x400  LQ 0
+|            User= 0  NoUser= 1  Excl= 0  Station= 1   Used= 1 Free= 0 Total= 1
++------------------------------------------------------------------------------
+| No.:    3  Serial: 3-4537514  FC:PC 100473:1283  FeatureMap 0x400  LQ 0
+|            User= 0  NoUser= 0  Excl= 0  Station= 1   Used= 1 Free= 0 Total= 1
++------------------------------------------------------------------------------
+| No.:    4  Serial: 3-4537514  FC:PC 100473:1300  FeatureMap 0x400  LQ 0
+|            User= 0  NoUser= 0  Excl= 0  Station= 1   Used= 1 Free= 0 Total= 1
++------------------------------------------------------------------------------
+| No.:    5  Serial: 3-4537514  FC:PC 100473:1302  FeatureMap 0x400  LQ 0
+|            User= 0  NoUser= 0  Excl= 0  Station= 1   Used= 1 Free= 0 Total= 1
++------------------------------------------------------------------------------
+| No.:    6  Serial: 3-4537514  FC:PC 100473:1311  FeatureMap 0x400  LQ 0
+|            User= 0  NoUser= 0  Excl= 0  Station= 1   Used= 1 Free= 0 Total= 1
++------------------------------------------------------------------------------
+| No.:    7  Serial: 3-4537514  FC:PC 100473:1320  FeatureMap 0x400  LQ 0
+|            User= 0  NoUser= 0  Excl= 0  Station= 1   Used= 1 Free= 0 Total= 1
++------------------------------------------------------------------------------
+| No.:    8  Serial: 3-4537514  FC:PC 100473:1321  FeatureMap 0x400  LQ 0
+|            User= 0  NoUser= 0  Excl= 0  Station= 1   Used= 1 Free= 0 Total= 1
++------------------------------------------------------------------------------
+| No.:    9  Serial: 3-4537514  FC:PC 100473:1341  FeatureMap 0x400  LQ 0
+|            User= 0  NoUser= 0  Excl= 0  Station= 1   Used= 1 Free= 0 Total= 1
++------------------------------------------------------------------------------
+
+
++------------------------------------------------------------------------------
+| All allocated licenses:
++------------------------------------------------------------------------------
+| ID:    759  Serial: 3-4537514   FC:PC: 100473:1280   Ref:Map: 24:0x400
+|             AccessMode: 0x00000300   PID: 10024   User: user
+|             AccessType: Local (Entry Access)
+|             Create: 2023-09-12 09:43:08 (UTC)  Cleanup: 120min  LifeTime: -
+|             Last Access: 2023-09-12 09:47:09
+|             Client address: ::1
+|             UserID: 0   UserText: ATOS
++------------------------------------------------------------------------------
+| ID:    783  Serial: 3-4537514   FC:PC: 100473:1280   Ref:Map: 24:0x400
+|             AccessMode: 0x00000100   PID: 10024   User: user
+|             AccessType: Local (Entry Access)
+|             Create: 2023-09-12 09:43:08 (UTC)  Cleanup: 120min  LifeTime: -
+|             Last Access: 2023-09-12 09:43:08
+|             Client address: ::1
+|             UserID: 0   UserText: libTomMGomPro.dll
++------------------------------------------------------------------------------
+| ID:    788  Serial: 3-4537514   FC:PC: 100473:1283   Ref:Map: 22:0x400
+|             AccessMode: 0x00000300   PID: 10024   User: user
+|             AccessType: Local (Entry Access)
+|             Create: 2023-09-12 09:43:08 (UTC)  Cleanup: 120min  LifeTime: -
+|             Last Access: 2023-09-12 09:47:09
+|             Client address: ::1
+|             UserID: 0   UserText: ATOS
++------------------------------------------------------------------------------
+| ID:    793  Serial: 3-4537514   FC:PC: 100473:1300   Ref:Map: 21:0x400
+|             AccessMode: 0x00000300   PID: 10024   User: user
+|             AccessType: Local (Entry Access)
+|             Create: 2023-09-12 09:43:08 (UTC)  Cleanup: 120min  LifeTime: -
+|             Last Access: 2023-09-12 09:47:09
+|             Client address: ::1
+|             UserID: 0   UserText: ATOS
++------------------------------------------------------------------------------
+| ID:    772  Serial: 3-4537514   FC:PC: 100473:1302   Ref:Map: 18:0x400
+|             AccessMode: 0x00000300   PID: 10024   User: user
+|             AccessType: Local (Entry Access)
+|             Create: 2023-09-12 09:43:08 (UTC)  Cleanup: 120min  LifeTime: -
+|             Last Access: 2023-09-12 09:47:09
+|             Client address: ::1
+|             UserID: 0   UserText: ATOS
++------------------------------------------------------------------------------
+| ID:    809  Serial: 3-4537514   FC:PC: 100473:1311   Ref:Map: 19:0x400
+|             AccessMode: 0x00000300   PID: 10024   User: user
+|             AccessType: Local (Entry Access)
+|             Create: 2023-09-12 09:43:08 (UTC)  Cleanup: 120min  LifeTime: -
+|             Last Access: 2023-09-12 09:47:09
+|             Client address: ::1
+|             UserID: 0   UserText: ATOS
++------------------------------------------------------------------------------
+| ID:    786  Serial: 3-4537514   FC:PC: 100473:1320   Ref:Map: 23:0x400
+|             AccessMode: 0x00000300   PID: 10024   User: user
+|             AccessType: Local (Entry Access)
+|             Create: 2023-09-12 09:43:08 (UTC)  Cleanup: 120min  LifeTime: -
+|             Last Access: 2023-09-12 09:47:09
+|             Client address: ::1
+|             UserID: 0   UserText: ATOS
++------------------------------------------------------------------------------
+| ID:    781  Serial: 3-4537514   FC:PC: 100473:1321   Ref:Map: 20:0x400
+|             AccessMode: 0x00000300   PID: 10024   User: user
+|             AccessType: Local (Entry Access)
+|             Create: 2023-09-12 09:43:08 (UTC)  Cleanup: 120min  LifeTime: -
+|             Last Access: 2023-09-12 09:47:09
+|             Client address: ::1
+|             UserID: 0   UserText: ATOS
++------------------------------------------------------------------------------
+| ID:    837  Serial: 3-4537514   FC:PC: 100473:1341   Ref:Map: 17:0x400
+|             AccessMode: 0x00000300   PID: 10024   User: user
+|             AccessType: Local (Entry Access)
+|             Create: 2023-09-12 09:43:09 (UTC)  Cleanup: 120min  LifeTime: -
+|             Last Access: 2023-09-12 09:47:09
+|             Client address: ::1
+|             UserID: 0   UserText: ATOS
++------------------------------------------------------------------------------
+=================================Dump of CmContainers==============================
+************************** Dump of CmContainer 3-4537514 **************************
+
+FirmCode: 0 at [1]---------------------------------------------------  
+  Text:    "GOM License"  (File-based)
+  FAC/FUC: 65535 / 18
+  FPT:     2023-09-12 09:42:24 (UTC)
+  EnableBlock Table:
+    Index 0:   State:             Enabled
+               Type:              Time PIN
+               AccessCode Length: 16
+               Disable Time:      (never)
+               Text:              "Default"
+  EnableLookup Table:
+    EnableBlockItem 0:
+      Option:          Valid(required, IFI)
+      Enable Level:    Modify
+      Disable Level:   Locate
+
+  ProductCode: 0 at [16] (Dependency 0x07)
+    Hidden Data (#=14, Type 128, Dependency 0x05) not readable
+    Secret Data (#=32, Type 128, Dependency 0x01) not readable
+    Extended Protected Data (#=3, Type 128, Dependency 0x01)     
+      01 00 00  
+    Extended Protected Data (#=10, Type 129, Dependency 0x05)     
+      00 00 63 00 00 00 62 00 00 00  
+    Extended Protected Data (#=4, Type 130, Dependency 0x05)     
+      03 00 00 00  
+    Extended Protected Data (#=8, Type 131, Dependency 0x04)     
+      01 00 00 00 00 00 00 00  
+    ==> Hardware Type: 0 (CmStick without Flashdisk)
+    User Data (#=2, Dependency 0x00)     
+      00 00 
+
+  ProductCode: 50 at [17] (Dependency 0x07)
+    Text (#=12, Dependency 0x00)     "Field Update"
+
+  ProductCode: 60 at [18] (Dependency 0x07)
+    Text (#=3, Dependency 0x00)     "PKI"
+    Extended Protected Data (#=228, Type 2, Dependency 0x02)     
+      e4 00 00 00 99 e9 fd e2 5f 62 5f 57 7c 4b 6d 89 
+      d6 fa 80 c5 e9 0a 41 25 ca da 31 75 c6 06 8e f6 
+      00 00 00 00 7b 2d b7 d6 93 bb 5a 9c da 1a a9 60 
+      ff 2a 48 6b 9e 59 22 67 7e 95 c9 67 8c fc a5 bd 
+      00 00 00 00 7f 1c 3c 01 c2 44 11 15 4a 2c 3b 2d 
+      f4 bf b0 8b 9b 0e cd f0 78 a4 68 59 55 f6 77 32 
+      49 e8 57 6c 2a 5d 48 fb bb ea c6 e2 df 07 01 01 
+      00 00 00 00 f3 07 0c 1f 17 3b 3b 00 05 5e d0 b2 
+      57 69 62 75 2d 50 72 6f 64 75 63 74 69 6f 6e 00 
+      52 6f 6f 74 00 00 00 00 00 00 00 00 00 00 00 00 
+      d5 7a 3c ff fd 39 e4 8b 8b f1 27 24 ec fb f5 be 
+      85 e8 7d 06 df cb a8 1c ca cf 0e 05 00 00 00 00 
+      6d 62 28 7a cb 84 65 fb d6 5c 9f 5b 57 64 95 1a 
+      da c6 0b bd 1f 7f a6 6d be ad 65 b2 00 00 00 00 
+      01 00 00 00  
+    Extended Protected Data (#=228, Type 3, Dependency 0x02)     
+      e4 00 00 00 87 40 95 94 31 96 f8 9c a3 f7 91 dd 
+      23 2d ff ce f1 77 7e a1 11 12 af 32 38 c9 9e 17 
+      00 00 00 00 98 94 04 9f 4e d5 53 02 05 d6 65 2b 
+      e0 30 7e f0 57 6f 31 3a be 9e de 92 46 a5 68 04 
+      00 00 00 00 1b 1c a2 5d ac 93 0f cd c5 3f 64 03 
+      26 b5 7f 69 4e 51 1c c9 7f 1c 3c 01 c2 44 11 15 
+      4a 2c 3b 2d f4 bf b0 8b 9b 0e cd f0 e2 07 09 04 
+      03 38 38 00 f3 07 0c 1f 17 3b 3b 00 aa 3c 45 00 
+      33 2d 34 35 33 37 35 31 34 00 00 00 00 00 00 00 
+      57 69 62 75 2d 50 72 6f 64 75 63 74 69 6f 6e 00 
+      c3 15 1a 7d 2a 62 fd e9 e2 a9 fd b5 f0 dc 06 9d 
+      d1 ab 35 b5 4d ac b1 23 e0 47 f6 ff 00 00 00 00 
+      83 53 d3 4b 20 39 74 1f bb fa dc 2d 23 93 e7 7f 
+      04 5a e8 6f 13 57 4f a0 79 6f c9 e4 00 00 00 00 
+      00 00 00 00  
+
+  ProductCode: 70 at [19] (Dependency 0x07)
+    Text (#=21, Dependency 0x00)     "CodeMeter Restriction"
+    Extended Protected Data (#=16, Type 0, Dependency 0x04)     
+      43 4d 52 43 01 00 00 00 00 00 00 00 00 00 00 00  
+
+  ProductCode: 1000 at [20] (Dependency 0x07)
+
+FirmCode: 100473 at [16]---------------------------------------------------  
+  Text:    "GOM mbH"  (Box-based)
+  FAC/FUC: 1 / 31
+  FPT:     2023-09-12 09:42:24 (UTC)
+
+  ProductCode: 512 at [16] (Dependency 0x07)
+    License Quantity (Dependency 0x07) 0, Network Mode: UserLimit NoUserLimit Exclusive StationShare
+    Feature Map (Dependency 0x07) 0x400
+    Text (#=21, Dependency 0x00)     "GOM Automation Kernel"
+    Extended Protected Data (#=16, Type 128, Dependency 0x07)     
+      63 6d 6e 77 00 00 00 00 00 00 00 00 00 00 00 00  
+    ==> License Quantity: 0, Network Mode: UserLimit NoUserLimit Exclusive StationShare
+
+  ProductCode: 1341 at [17] (Dependency 0x07)
+    License Quantity (Dependency 0x07) 0, Network Mode: UserLimit NoUserLimit Exclusive StationShare
+    Feature Map (Dependency 0x07) 0x400
+    Text (#=10, Dependency 0x00)     "PONTOS Acq"
+    Extended Protected Data (#=16, Type 128, Dependency 0x07)     
+      63 6d 6e 77 00 00 00 00 00 00 00 00 00 00 00 00  
+    ==> License Quantity: 0, Network Mode: UserLimit NoUserLimit Exclusive StationShare
+
+  ProductCode: 1302 at [18] (Dependency 0x07)
+    License Quantity (Dependency 0x07) 0, Network Mode: UserLimit NoUserLimit Exclusive StationShare
+    Feature Map (Dependency 0x07) 0x400
+    Text (#=22, Dependency 0x00)     "Virtual Measuring Room"
+    Extended Protected Data (#=16, Type 128, Dependency 0x07)     
+      63 6d 6e 77 00 00 00 00 00 00 00 00 00 00 00 00  
+    ==> License Quantity: 0, Network Mode: UserLimit NoUserLimit Exclusive StationShare
+
+  ProductCode: 1311 at [19] (Dependency 0x07)
+    License Quantity (Dependency 0x07) 0, Network Mode: UserLimit NoUserLimit Exclusive StationShare
+    Feature Map (Dependency 0x07) 0x400
+    Text (#=12, Dependency 0x00)     "Robot Driver"
+    Extended Protected Data (#=16, Type 128, Dependency 0x07)     
+      63 6d 6e 77 00 00 00 00 00 00 00 00 00 00 00 00  
+    ==> License Quantity: 0, Network Mode: UserLimit NoUserLimit Exclusive StationShare
+
+  ProductCode: 1321 at [20] (Dependency 0x07)
+    License Quantity (Dependency 0x07) 0, Network Mode: UserLimit NoUserLimit Exclusive StationShare
+    Feature Map (Dependency 0x07) 0x400
+    Text (#=8, Dependency 0x00)     "ATOS Acq"
+    Extended Protected Data (#=16, Type 128, Dependency 0x07)     
+      63 6d 6e 77 00 00 00 00 00 00 00 00 00 00 00 00  
+    ==> License Quantity: 0, Network Mode: UserLimit NoUserLimit Exclusive StationShare
+
+  ProductCode: 1300 at [21] (Dependency 0x07)
+    License Quantity (Dependency 0x07) 0, Network Mode: UserLimit NoUserLimit Exclusive StationShare
+    Feature Map (Dependency 0x07) 0x400
+    Text (#=14, Dependency 0x00)     "Trend Analysis"
+    Extended Protected Data (#=16, Type 128, Dependency 0x07)     
+      63 6d 6e 77 00 00 00 00 00 00 00 00 00 00 00 00  
+    ==> License Quantity: 0, Network Mode: UserLimit NoUserLimit Exclusive StationShare
+
+  ProductCode: 1283 at [22] (Dependency 0x07)
+    License Quantity (Dependency 0x07) 0, Network Mode: UserLimit NoUserLimit Exclusive StationShare
+    Feature Map (Dependency 0x07) 0x400
+    Text (#=24, Dependency 0x00)     "GOM Inspect Professional"
+    Extended Protected Data (#=16, Type 128, Dependency 0x07)     
+      63 6d 6e 77 00 00 00 00 00 00 00 00 00 00 00 00  
+    ==> License Quantity: 0, Network Mode: UserLimit NoUserLimit Exclusive StationShare
+
+  ProductCode: 1320 at [23] (Dependency 0x07)
+    License Quantity (Dependency 0x07) 0, Network Mode: UserLimit NoUserLimit Exclusive StationShare
+    Feature Map (Dependency 0x07) 0x400
+    Text (#=9, Dependency 0x00)     "ATOS Base"
+    Extended Protected Data (#=16, Type 128, Dependency 0x07)     
+      63 6d 6e 77 00 00 00 00 00 00 00 00 00 00 00 00  
+    ==> License Quantity: 0, Network Mode: UserLimit NoUserLimit Exclusive StationShare
+
+  ProductCode: 1280 at [24] (Dependency 0x07)
+    License Quantity (Dependency 0x07) 0, Network Mode: UserLimit NoUserLimit Exclusive StationShare
+    Feature Map (Dependency 0x07) 0x400
+    Text (#=16, Dependency 0x00)     "GOM Applications"
+    Protected Data (#=30, Dependency 0x07)     
+      41 55 42 45 52 54 20 45 54 20 44 55 56 41 4c 20 
+      45 52 41 4d 45 54 7c 7c 7c 32 38 34 39 31 
+    Extended Protected Data (#=16, Type 128, Dependency 0x07)     
+      63 6d 6e 77 00 00 00 00 00 00 00 00 00 00 00 00  
+    ==> License Quantity: 0, Network Mode: UserLimit NoUserLimit Exclusive StationShare
+
+  ProductCode: 1024 at [25] (Dependency 0x07)
+    License Quantity (Dependency 0x07) 0, Network Mode: UserLimit NoUserLimit Exclusive StationShare
+    Feature Map (Dependency 0x07) 0x400
+    Text (#=20, Dependency 0x00)     "GOM Image Acq Kernel"
+    Extended Protected Data (#=16, Type 128, Dependency 0x07)     
+      63 6d 6e 77 00 00 00 00 00 00 00 00 00 00 00 00  
+    ==> License Quantity: 0, Network Mode: UserLimit NoUserLimit Exclusive StationShare
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+=================================Dump of Files==================================
+================================================================================
+********************************** Eventlog ************************************
+================================================================================
+2023-09-12 09:14:05: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 09:14:15: Access from local(IPV6) to FC:PC=100473:512 with NoUserLimit (Handle 342) 
+2023-09-12 09:14:15: Handle 342 released
+2023-09-12 09:34:16: Removable Device has been plugged IN!
+2023-09-12 09:34:17: The list of available CmContainers has been updated!
+2023-09-12 09:34:17: The list of available CmContainers has been updated!
+2023-09-12 09:34:17: The list of available CmContainers has been updated!
+2023-09-12 09:34:17: The list of available CmContainers has been updated!
+2023-09-12 09:34:17: Removable Device has been plugged IN!
+2023-09-12 09:34:17: The list of available CmContainers has been updated!
+2023-09-12 09:34:17: The list of available CmContainers has been updated!
+2023-09-12 09:34:17: The list of available CmContainers has been updated!
+2023-09-12 09:34:17: The list of available CmContainers has been updated!
+2023-09-12 09:34:18: Access from local(IPV6) to SubSystem (Handle 372) 
+2023-09-12 09:34:18: Handle 372 released
+2023-09-12 09:34:26: Handle 368 released
+2023-09-12 09:34:26: Handle 228 released
+2023-09-12 09:34:26: Handle 330 released
+2023-09-12 09:34:26: Handle 352 released
+2023-09-12 09:34:26: Handle 348 released
+2023-09-12 09:34:26: Handle 337 released
+2023-09-12 09:34:26: Handle 336 released
+2023-09-12 09:34:26: Handle 291 released
+2023-09-12 09:34:26: Handle 310 released
+2023-09-12 09:35:05: Removable Device has been plugged IN/OUT!
+2023-09-12 09:35:05: The list of available CmContainers has been updated!
+2023-09-12 09:35:05: The list of available CmContainers has been updated!
+2023-09-12 09:35:05: The list of available CmContainers has been updated!
+2023-09-12 09:35:05: The list of available CmContainers has been updated!
+2023-09-12 09:58:45: Power State of the operating system has changed!
+2023-09-12 09:58:45: The list of available CmContainers has been updated!
+2023-09-12 09:58:45: The list of available CmContainers has been updated!
+2023-09-12 09:58:45: The list of available CmContainers has been updated!
+2023-09-12 09:58:45: The list of available CmContainers has been updated!
+2023-09-12 09:59:04: Access from local(IPV6)(GOMPC\user,libTomMGomPro.dll) to FC:PC=100473:1280 with NoUserLimit (Handle 402) 
+2023-09-12 09:59:04: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1280:1024 with StationShare Mode (Handle 409) 
+2023-09-12 09:59:04: Entry (100473:1282:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 09:59:04: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 09:59:04: Entry (100473:1282:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 09:59:04: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 09:59:04: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1283:1024 with StationShare Mode (Handle 414) 
+2023-09-12 09:59:04: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1300:1024 with StationShare Mode (Handle 416) 
+2023-09-12 09:59:04: Entry (100473:1301:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 09:59:04: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 09:59:04: Entry (100473:1301:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 09:59:04: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 09:59:04: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1302:1024 with StationShare Mode (Handle 343) 
+2023-09-12 09:59:04: Entry (100473:1303:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 09:59:04: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 09:59:04: Entry (100473:1303:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 09:59:04: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 09:59:04: Entry (100473:1304:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 09:59:04: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 09:59:05: Entry (100473:1304:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 09:59:05: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 09:59:05: Entry (100473:1307:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 09:59:05: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 09:59:05: Entry (100473:1307:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 09:59:05: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 09:59:05: Entry (100473:1308:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 09:59:05: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 09:59:05: Entry (100473:1308:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 09:59:05: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 09:59:05: Entry (100473:1310:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 09:59:05: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 09:59:05: Entry (100473:1310:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 09:59:05: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 09:59:05: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1311:1024 with StationShare Mode (Handle 320) 
+2023-09-12 09:59:05: Entry (100473:1312:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 09:59:05: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 09:59:05: Entry (100473:1312:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 09:59:05: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 09:59:05: Entry (100473:1313:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 09:59:05: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 09:59:05: Entry (100473:1313:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 09:59:05: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 09:59:05: Entry (100473:1314:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 09:59:05: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 09:59:05: Entry (100473:1314:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 09:59:05: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 09:59:05: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1320:1024 with StationShare Mode (Handle 392) 
+2023-09-12 09:59:05: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1321:1024 with StationShare Mode (Handle 382) 
+2023-09-12 09:59:05: Entry (100473:1330:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 09:59:05: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 09:59:05: Entry (100473:1330:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 09:59:05: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 09:59:05: Entry (100473:1331:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 09:59:05: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 09:59:05: Entry (100473:1331:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 09:59:05: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 09:59:05: Entry (100473:1332:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 09:59:05: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 09:59:05: Entry (100473:1332:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 09:59:05: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 09:59:05: Entry (100473:1340:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 09:59:05: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 09:59:05: Entry (100473:1340:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 09:59:05: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 09:59:05: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1341:1024 with StationShare Mode (Handle 389) 
+2023-09-12 09:59:05: Entry (100473:1350:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 09:59:05: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 09:59:05: Entry (100473:1350:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 09:59:05: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 09:59:05: Entry (100473:1360:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 09:59:05: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 09:59:05: Entry (100473:1360:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 09:59:05: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 09:59:05: Entry (100473:1361:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 09:59:05: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 09:59:05: Entry (100473:1361:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 09:59:05: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 09:59:05: Entry (100473:1370:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 09:59:05: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 09:59:05: Entry (100473:1370:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 09:59:05: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 09:59:05: Entry (100473:1400:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 09:59:05: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 09:59:05: Entry (100473:1400:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 09:59:05: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 09:59:08: Access from local(IPV6) to SubSystem (Handle 459) 
+2023-09-12 09:59:08: Handle 459 released
+2023-09-12 09:59:17: Access from local(IPV6) to FC:PC=100473:512 with NoUserLimit (Handle 471) 
+2023-09-12 09:59:17: Handle 471 released
+2023-09-12 10:27:02: Handle 389 released
+2023-09-12 10:27:02: Handle 382 released
+2023-09-12 10:27:02: Handle 392 released
+2023-09-12 10:27:02: Handle 320 released
+2023-09-12 10:27:02: Handle 343 released
+2023-09-12 10:27:02: Handle 416 released
+2023-09-12 10:27:02: Handle 414 released
+2023-09-12 10:27:02: Handle 409 released
+2023-09-12 10:27:03: Handle 402 released
+2023-09-12 10:28:21: Access from local(IPV6)(GOMPC\user,libTomMGomPro.dll) to FC:PC=100473:1280 with NoUserLimit (Handle 453) 
+2023-09-12 10:28:22: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1280:1024 with StationShare Mode (Handle 415) 
+2023-09-12 10:28:22: Entry (100473:1282:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:28:22: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:28:22: Entry (100473:1282:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:28:22: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:28:22: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1283:1024 with StationShare Mode (Handle 425) 
+2023-09-12 10:28:22: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1300:1024 with StationShare Mode (Handle 420) 
+2023-09-12 10:28:22: Entry (100473:1301:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:28:22: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:28:22: Entry (100473:1301:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:28:22: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:28:22: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1302:1024 with StationShare Mode (Handle 476) 
+2023-09-12 10:28:22: Entry (100473:1303:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:28:22: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:28:22: Entry (100473:1303:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:28:22: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:28:22: Entry (100473:1304:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:28:22: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:28:22: Entry (100473:1304:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:28:22: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:28:22: Entry (100473:1307:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:28:22: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:28:22: Entry (100473:1307:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:28:22: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:28:22: Entry (100473:1308:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:28:22: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:28:22: Entry (100473:1308:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:28:22: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:28:22: Entry (100473:1310:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:28:22: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:28:22: Entry (100473:1310:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:28:22: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:28:22: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1311:1024 with StationShare Mode (Handle 393) 
+2023-09-12 10:28:22: Entry (100473:1312:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:28:22: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:28:22: Entry (100473:1312:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:28:22: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:28:22: Entry (100473:1313:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:28:22: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:28:22: Entry (100473:1313:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:28:22: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:28:22: Entry (100473:1314:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:28:22: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:28:22: Entry (100473:1314:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:28:22: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:28:22: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1320:1024 with StationShare Mode (Handle 435) 
+2023-09-12 10:28:22: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1321:1024 with StationShare Mode (Handle 485) 
+2023-09-12 10:28:22: Entry (100473:1330:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:28:22: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:28:22: Entry (100473:1330:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:28:22: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:28:22: Entry (100473:1331:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:28:22: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:28:22: Entry (100473:1331:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:28:22: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:28:22: Entry (100473:1332:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:28:22: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:28:22: Entry (100473:1332:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:28:22: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:28:22: Entry (100473:1340:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:28:22: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:28:22: Entry (100473:1340:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:28:22: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:28:22: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1341:1024 with StationShare Mode (Handle 505) 
+2023-09-12 10:28:22: Entry (100473:1350:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:28:22: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:28:22: Entry (100473:1350:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:28:22: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:28:22: Entry (100473:1360:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:28:22: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:28:22: Entry (100473:1360:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:28:22: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:28:22: Entry (100473:1361:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:28:22: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:28:22: Entry (100473:1361:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:28:22: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:28:22: Entry (100473:1370:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:28:22: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:28:22: Entry (100473:1370:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:28:22: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:28:22: Entry (100473:1400:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:28:22: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:28:22: Entry (100473:1400:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:28:22: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:28:34: Access from local(IPV6) to FC:PC=100473:512 with NoUserLimit (Handle 524) 
+2023-09-12 10:28:34: Handle 524 released
+2023-09-12 10:33:19: Handle 505 released
+2023-09-12 10:33:19: Handle 485 released
+2023-09-12 10:33:19: Handle 435 released
+2023-09-12 10:33:19: Handle 393 released
+2023-09-12 10:33:19: Handle 476 released
+2023-09-12 10:33:19: Handle 420 released
+2023-09-12 10:33:19: Handle 425 released
+2023-09-12 10:33:19: Handle 415 released
+2023-09-12 10:33:19: Handle 453 released
+2023-09-12 10:34:47: Access from local(IPV6)(GOMPC\user,libTomMGomPro.dll) to FC:PC=100473:1280 with NoUserLimit (Handle 508) 
+2023-09-12 10:34:48: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1280:1024 with StationShare Mode (Handle 490) 
+2023-09-12 10:34:48: Entry (100473:1282:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:34:48: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:34:48: Entry (100473:1282:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:34:48: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:34:48: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1283:1024 with StationShare Mode (Handle 430) 
+2023-09-12 10:34:48: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1300:1024 with StationShare Mode (Handle 421) 
+2023-09-12 10:34:48: Entry (100473:1301:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:34:48: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:34:48: Entry (100473:1301:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:34:48: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:34:48: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1302:1024 with StationShare Mode (Handle 527) 
+2023-09-12 10:34:48: Entry (100473:1303:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:34:48: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:34:48: Entry (100473:1303:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:34:48: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:34:48: Entry (100473:1304:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:34:48: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:34:48: Entry (100473:1304:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:34:48: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:34:48: Entry (100473:1307:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:34:48: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:34:48: Entry (100473:1307:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:34:48: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:34:48: Entry (100473:1308:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:34:48: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:34:48: Entry (100473:1308:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:34:48: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:34:48: Entry (100473:1310:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:34:48: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:34:48: Entry (100473:1310:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:34:48: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:34:48: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1311:1024 with StationShare Mode (Handle 444) 
+2023-09-12 10:34:48: Entry (100473:1312:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:34:48: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:34:48: Entry (100473:1312:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:34:48: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:34:48: Entry (100473:1313:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:34:48: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:34:48: Entry (100473:1313:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:34:48: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:34:48: Entry (100473:1314:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:34:48: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:34:48: Entry (100473:1314:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:34:48: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:34:48: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1320:1024 with StationShare Mode (Handle 491) 
+2023-09-12 10:34:48: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1321:1024 with StationShare Mode (Handle 488) 
+2023-09-12 10:34:48: Entry (100473:1330:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:34:48: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:34:48: Entry (100473:1330:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:34:48: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:34:48: Entry (100473:1331:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:34:48: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:34:48: Entry (100473:1331:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:34:48: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:34:48: Entry (100473:1332:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:34:48: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:34:48: Entry (100473:1332:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:34:48: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:34:48: Entry (100473:1340:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:34:48: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:34:48: Entry (100473:1340:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:34:48: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:34:48: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1341:1024 with StationShare Mode (Handle 541) 
+2023-09-12 10:34:48: Entry (100473:1350:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:34:48: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:34:48: Entry (100473:1350:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:34:48: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:34:48: Entry (100473:1360:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:34:48: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:34:48: Entry (100473:1360:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:34:48: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:34:48: Entry (100473:1361:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:34:48: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:34:48: Entry (100473:1361:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:34:48: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:34:48: Entry (100473:1370:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:34:48: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:34:48: Entry (100473:1370:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:34:48: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:34:48: Entry (100473:1400:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:34:48: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:34:48: Entry (100473:1400:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:34:48: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:34:58: Access from local(IPV6) to FC:PC=100473:512 with NoUserLimit (Handle 449) 
+2023-09-12 10:34:58: Handle 449 released
+2023-09-12 10:38:52: Handle 541 released
+2023-09-12 10:38:52: Handle 488 released
+2023-09-12 10:38:52: Handle 491 released
+2023-09-12 10:38:52: Handle 444 released
+2023-09-12 10:38:52: Handle 527 released
+2023-09-12 10:38:52: Handle 421 released
+2023-09-12 10:38:52: Handle 430 released
+2023-09-12 10:38:52: Handle 490 released
+2023-09-12 10:38:52: Handle 508 released
+2023-09-12 10:39:18: Access from local(IPV6)(GOMPC\user,libTomMGomPro.dll) to FC:PC=100473:1280 with NoUserLimit (Handle 548) 
+2023-09-12 10:39:18: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1280:1024 with StationShare Mode (Handle 523) 
+2023-09-12 10:39:18: Entry (100473:1282:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:39:18: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:39:18: Entry (100473:1282:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:39:18: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:39:18: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1283:1024 with StationShare Mode (Handle 462) 
+2023-09-12 10:39:18: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1300:1024 with StationShare Mode (Handle 441) 
+2023-09-12 10:39:19: Entry (100473:1301:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:39:19: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:39:19: Entry (100473:1301:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:39:19: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:39:19: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1302:1024 with StationShare Mode (Handle 442) 
+2023-09-12 10:39:19: Entry (100473:1303:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:39:19: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:39:19: Entry (100473:1303:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:39:19: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:39:19: Entry (100473:1304:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:39:19: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:39:19: Entry (100473:1304:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:39:19: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:39:19: Entry (100473:1307:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:39:19: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:39:19: Entry (100473:1307:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:39:19: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:39:19: Entry (100473:1308:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:39:19: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:39:19: Entry (100473:1308:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:39:19: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:39:19: Entry (100473:1310:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:39:19: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:39:19: Entry (100473:1310:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:39:19: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:39:19: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1311:1024 with StationShare Mode (Handle 531) 
+2023-09-12 10:39:19: Entry (100473:1312:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:39:19: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:39:19: Entry (100473:1312:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:39:19: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:39:19: Entry (100473:1313:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:39:19: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:39:19: Entry (100473:1313:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:39:19: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:39:19: Entry (100473:1314:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:39:19: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:39:19: Entry (100473:1314:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:39:19: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:39:19: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1320:1024 with StationShare Mode (Handle 506) 
+2023-09-12 10:39:19: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1321:1024 with StationShare Mode (Handle 534) 
+2023-09-12 10:39:19: Entry (100473:1330:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:39:19: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:39:19: Entry (100473:1330:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:39:19: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:39:19: Entry (100473:1331:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:39:19: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:39:19: Entry (100473:1331:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:39:19: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:39:19: Entry (100473:1332:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:39:19: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:39:19: Entry (100473:1332:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:39:19: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:39:19: Entry (100473:1340:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:39:19: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:39:19: Entry (100473:1340:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:39:19: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:39:19: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1341:1024 with StationShare Mode (Handle 542) 
+2023-09-12 10:39:19: Entry (100473:1350:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:39:19: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:39:19: Entry (100473:1350:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:39:19: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:39:19: Entry (100473:1360:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:39:19: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:39:19: Entry (100473:1360:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:39:19: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:39:19: Entry (100473:1361:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:39:19: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:39:19: Entry (100473:1361:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:39:19: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:39:19: Entry (100473:1370:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:39:19: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:39:19: Entry (100473:1370:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:39:19: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:39:19: Entry (100473:1400:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:39:19: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:39:19: Entry (100473:1400:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:39:19: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:39:30: Access from local(IPV6) to FC:PC=100473:512 with NoUserLimit (Handle 557) 
+2023-09-12 10:39:30: Handle 557 released
+2023-09-12 10:51:44: Handle 542 released
+2023-09-12 10:51:44: Handle 534 released
+2023-09-12 10:51:44: Handle 506 released
+2023-09-12 10:51:44: Handle 531 released
+2023-09-12 10:51:44: Handle 442 released
+2023-09-12 10:51:44: Handle 441 released
+2023-09-12 10:51:44: Handle 462 released
+2023-09-12 10:51:44: Handle 523 released
+2023-09-12 10:51:44: Handle 548 released
+2023-09-12 10:51:48: Access from local(IPV6)(GOMPC\user,other) to FC:PC:FC=100473:1280:1024 with StationShare Mode (Handle 581) 
+2023-09-12 10:51:48: Handle 581 released
+2023-09-12 10:51:49: Access from local(IPV6)(GOMPC\user,libTomMGomPro.dll) to FC:PC=100473:1280 with NoUserLimit (Handle 566) 
+2023-09-12 10:51:49: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1280:1024 with StationShare Mode (Handle 560) 
+2023-09-12 10:51:49: Entry (100473:1282:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:51:49: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:51:50: Entry (100473:1282:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:51:50: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:51:50: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1283:1024 with StationShare Mode (Handle 592) 
+2023-09-12 10:51:50: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1300:1024 with StationShare Mode (Handle 543) 
+2023-09-12 10:51:50: Entry (100473:1301:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:51:50: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:51:50: Entry (100473:1301:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:51:50: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:51:50: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1302:1024 with StationShare Mode (Handle 572) 
+2023-09-12 10:51:50: Entry (100473:1303:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:51:50: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:51:50: Entry (100473:1303:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:51:50: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:51:50: Entry (100473:1304:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:51:50: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:51:50: Entry (100473:1304:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:51:50: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:51:50: Entry (100473:1307:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:51:50: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:51:50: Entry (100473:1307:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:51:50: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:51:50: Entry (100473:1308:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:51:50: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:51:50: Entry (100473:1308:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:51:50: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:51:50: Entry (100473:1310:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:51:50: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:51:50: Entry (100473:1310:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:51:50: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:51:50: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1311:1024 with StationShare Mode (Handle 611) 
+2023-09-12 10:51:50: Entry (100473:1312:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:51:50: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:51:50: Entry (100473:1312:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:51:50: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:51:50: Entry (100473:1313:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:51:50: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:51:50: Entry (100473:1313:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:51:50: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:51:50: Entry (100473:1314:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:51:50: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:51:50: Entry (100473:1314:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:51:50: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:51:50: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1320:1024 with StationShare Mode (Handle 537) 
+2023-09-12 10:51:50: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1321:1024 with StationShare Mode (Handle 546) 
+2023-09-12 10:51:50: Entry (100473:1330:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:51:50: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:51:50: Entry (100473:1330:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:51:50: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:51:50: Entry (100473:1331:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:51:50: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:51:50: Entry (100473:1331:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:51:50: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:51:50: Entry (100473:1332:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:51:50: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:51:50: Entry (100473:1332:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:51:50: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:51:50: Entry (100473:1340:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:51:50: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:51:50: Entry (100473:1340:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:51:50: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:51:50: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1341:1024 with StationShare Mode (Handle 643) 
+2023-09-12 10:51:50: Entry (100473:1350:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:51:50: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:51:50: Entry (100473:1350:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:51:50: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:51:50: Entry (100473:1360:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:51:50: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:51:50: Entry (100473:1360:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:51:50: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:51:50: Entry (100473:1361:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:51:50: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:51:50: Entry (100473:1361:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:51:50: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:51:50: Entry (100473:1370:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:51:50: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:51:50: Entry (100473:1370:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:51:50: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:51:50: Entry (100473:1400:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:51:50: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 10:51:50: Entry (100473:1400:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 10:51:50: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 10:52:35: Access from local(IPV6) to FC:PC=100473:512 with NoUserLimit (Handle 631) 
+2023-09-12 10:52:35: Handle 631 released
+2023-09-12 10:53:37: Access from local(IPV6) to FC:PC=100473:512 with NoUserLimit (Handle 619) 
+2023-09-12 10:53:37: Handle 619 released
+2023-09-12 11:11:59: Access from local(IPV6) to FC:PC=100473:512 with NoUserLimit (Handle 614) 
+2023-09-12 11:11:59: Handle 614 released
+2023-09-12 11:12:08: Handle 643 released
+2023-09-12 11:12:08: Handle 546 released
+2023-09-12 11:12:08: Handle 537 released
+2023-09-12 11:12:08: Handle 611 released
+2023-09-12 11:12:08: Handle 572 released
+2023-09-12 11:12:08: Handle 543 released
+2023-09-12 11:12:08: Handle 592 released
+2023-09-12 11:12:08: Handle 560 released
+2023-09-12 11:12:08: Handle 566 released
+2023-09-12 11:12:16: Access from local(IPV6)(GOMPC\user,libTomMGomPro.dll) to FC:PC=100473:1280 with NoUserLimit (Handle 610) 
+2023-09-12 11:12:16: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1280:1024 with StationShare Mode (Handle 616) 
+2023-09-12 11:12:16: Entry (100473:1282:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:12:16: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:12:16: Entry (100473:1282:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:12:16: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:12:16: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1283:1024 with StationShare Mode (Handle 628) 
+2023-09-12 11:12:16: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1300:1024 with StationShare Mode (Handle 624) 
+2023-09-12 11:12:16: Entry (100473:1301:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:12:16: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:12:16: Entry (100473:1301:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:12:16: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:12:16: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1302:1024 with StationShare Mode (Handle 617) 
+2023-09-12 11:12:16: Entry (100473:1303:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:12:16: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:12:16: Entry (100473:1303:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:12:16: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:12:16: Entry (100473:1304:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:12:16: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:12:16: Entry (100473:1304:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:12:16: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:12:16: Entry (100473:1307:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:12:16: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:12:16: Entry (100473:1307:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:12:16: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:12:16: Entry (100473:1308:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:12:16: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:12:16: Entry (100473:1308:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:12:16: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:12:16: Entry (100473:1310:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:12:16: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:12:16: Entry (100473:1310:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:12:16: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:12:16: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1311:1024 with StationShare Mode (Handle 668) 
+2023-09-12 11:12:16: Entry (100473:1312:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:12:16: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:12:17: Entry (100473:1312:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:12:17: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:12:17: Entry (100473:1313:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:12:17: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:12:17: Entry (100473:1313:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:12:17: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:12:17: Entry (100473:1314:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:12:17: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:12:17: Entry (100473:1314:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:12:17: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:12:17: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1320:1024 with StationShare Mode (Handle 637) 
+2023-09-12 11:12:17: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1321:1024 with StationShare Mode (Handle 633) 
+2023-09-12 11:12:17: Entry (100473:1330:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:12:17: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:12:17: Entry (100473:1330:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:12:17: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:12:17: Entry (100473:1331:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:12:17: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:12:17: Entry (100473:1331:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:12:17: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:12:17: Entry (100473:1332:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:12:17: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:12:17: Entry (100473:1332:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:12:17: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:12:17: Entry (100473:1340:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:12:17: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:12:17: Entry (100473:1340:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:12:17: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:12:17: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1341:1024 with StationShare Mode (Handle 696) 
+2023-09-12 11:12:17: Entry (100473:1350:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:12:17: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:12:17: Entry (100473:1350:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:12:17: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:12:17: Entry (100473:1360:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:12:17: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:12:17: Entry (100473:1360:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:12:17: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:12:17: Entry (100473:1361:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:12:17: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:12:17: Entry (100473:1361:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:12:17: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:12:17: Entry (100473:1370:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:12:17: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:12:17: Entry (100473:1370:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:12:17: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:12:17: Entry (100473:1400:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:12:17: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:12:17: Entry (100473:1400:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:12:17: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:12:27: Access from local(IPV6) to FC:PC=100473:512 with NoUserLimit (Handle 681) 
+2023-09-12 11:12:27: Handle 681 released
+2023-09-12 11:13:02: Handle 696 released
+2023-09-12 11:13:02: Handle 633 released
+2023-09-12 11:13:02: Handle 637 released
+2023-09-12 11:13:02: Handle 668 released
+2023-09-12 11:13:02: Handle 617 released
+2023-09-12 11:13:02: Handle 624 released
+2023-09-12 11:13:02: Handle 628 released
+2023-09-12 11:13:02: Handle 616 released
+2023-09-12 11:13:02: Handle 610 released
+2023-09-12 11:22:15: Access from local(IPV6)(GOMPC\user,libTomMGomPro.dll) to FC:PC=100473:1280 with NoUserLimit (Handle 664) 
+2023-09-12 11:22:15: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1280:1024 with StationShare Mode (Handle 688) 
+2023-09-12 11:22:15: Entry (100473:1282:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:22:15: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:22:15: Entry (100473:1282:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:22:15: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:22:15: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1283:1024 with StationShare Mode (Handle 674) 
+2023-09-12 11:22:15: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1300:1024 with StationShare Mode (Handle 670) 
+2023-09-12 11:22:15: Entry (100473:1301:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:22:15: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:22:15: Entry (100473:1301:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:22:15: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:22:15: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1302:1024 with StationShare Mode (Handle 661) 
+2023-09-12 11:22:15: Entry (100473:1303:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:22:15: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:22:15: Entry (100473:1303:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:22:15: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:22:15: Entry (100473:1304:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:22:15: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:22:15: Entry (100473:1304:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:22:15: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:22:15: Entry (100473:1307:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:22:15: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:22:15: Entry (100473:1307:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:22:15: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:22:15: Entry (100473:1308:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:22:15: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:22:15: Entry (100473:1308:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:22:15: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:22:15: Entry (100473:1310:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:22:15: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:22:15: Entry (100473:1310:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:22:15: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:22:15: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1311:1024 with StationShare Mode (Handle 713) 
+2023-09-12 11:22:15: Entry (100473:1312:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:22:15: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:22:15: Entry (100473:1312:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:22:15: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:22:15: Entry (100473:1313:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:22:15: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:22:15: Entry (100473:1313:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:22:15: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:22:15: Entry (100473:1314:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:22:15: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:22:15: Entry (100473:1314:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:22:15: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:22:15: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1320:1024 with StationShare Mode (Handle 686) 
+2023-09-12 11:22:15: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1321:1024 with StationShare Mode (Handle 682) 
+2023-09-12 11:22:15: Entry (100473:1330:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:22:15: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:22:15: Entry (100473:1330:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:22:15: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:22:15: Entry (100473:1331:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:22:15: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:22:15: Entry (100473:1331:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:22:15: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:22:15: Entry (100473:1332:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:22:15: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:22:15: Entry (100473:1332:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:22:15: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:22:15: Entry (100473:1340:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:22:15: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:22:15: Entry (100473:1340:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:22:15: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:22:15: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1341:1024 with StationShare Mode (Handle 746) 
+2023-09-12 11:22:15: Entry (100473:1350:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:22:15: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:22:16: Entry (100473:1350:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:22:16: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:22:16: Entry (100473:1360:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:22:16: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:22:16: Entry (100473:1360:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:22:16: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:22:16: Entry (100473:1361:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:22:16: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:22:16: Entry (100473:1361:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:22:16: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:22:16: Entry (100473:1370:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:22:16: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:22:16: Entry (100473:1370:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:22:16: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:22:16: Entry (100473:1400:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:22:16: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:22:16: Entry (100473:1400:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:22:16: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:22:26: Access from local(IPV6) to FC:PC=100473:512 with NoUserLimit (Handle 732) 
+2023-09-12 11:22:26: Handle 732 released
+2023-09-12 11:29:59: Handle 746 released
+2023-09-12 11:29:59: Handle 682 released
+2023-09-12 11:29:59: Handle 686 released
+2023-09-12 11:29:59: Handle 713 released
+2023-09-12 11:29:59: Handle 661 released
+2023-09-12 11:29:59: Handle 670 released
+2023-09-12 11:29:59: Handle 674 released
+2023-09-12 11:29:59: Handle 688 released
+2023-09-12 11:29:59: Handle 664 released
+2023-09-12 11:30:12: Access from local(IPV6)(GOMPC\user,libTomMGomPro.dll) to FC:PC=100473:1280 with NoUserLimit (Handle 715) 
+2023-09-12 11:30:13: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1280:1024 with StationShare Mode (Handle 758) 
+2023-09-12 11:30:13: Entry (100473:1282:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:30:13: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:30:13: Entry (100473:1282:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:30:13: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:30:13: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1283:1024 with StationShare Mode (Handle 749) 
+2023-09-12 11:30:13: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1300:1024 with StationShare Mode (Handle 742) 
+2023-09-12 11:30:13: Entry (100473:1301:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:30:13: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:30:13: Entry (100473:1301:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:30:13: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:30:13: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1302:1024 with StationShare Mode (Handle 720) 
+2023-09-12 11:30:13: Entry (100473:1303:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:30:13: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:30:13: Entry (100473:1303:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:30:13: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:30:13: Entry (100473:1304:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:30:13: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:30:13: Entry (100473:1304:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:30:13: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:30:13: Entry (100473:1307:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:30:13: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:30:13: Entry (100473:1307:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:30:13: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:30:13: Entry (100473:1308:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:30:13: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:30:13: Entry (100473:1308:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:30:13: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:30:13: Entry (100473:1310:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:30:13: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:30:13: Entry (100473:1310:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:30:13: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:30:13: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1311:1024 with StationShare Mode (Handle 761) 
+2023-09-12 11:30:13: Entry (100473:1312:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:30:13: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:30:13: Entry (100473:1312:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:30:13: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:30:13: Entry (100473:1313:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:30:13: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:30:13: Entry (100473:1313:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:30:13: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:30:13: Entry (100473:1314:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:30:13: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:30:13: Entry (100473:1314:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:30:13: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:30:13: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1320:1024 with StationShare Mode (Handle 736) 
+2023-09-12 11:30:13: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1321:1024 with StationShare Mode (Handle 731) 
+2023-09-12 11:30:13: Entry (100473:1330:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:30:13: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:30:13: Entry (100473:1330:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:30:13: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:30:13: Entry (100473:1331:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:30:13: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:30:13: Entry (100473:1331:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:30:13: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:30:13: Entry (100473:1332:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:30:13: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:30:13: Entry (100473:1332:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:30:13: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:30:13: Entry (100473:1340:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:30:13: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:30:13: Entry (100473:1340:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:30:13: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:30:13: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1341:1024 with StationShare Mode (Handle 796) 
+2023-09-12 11:30:13: Entry (100473:1350:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:30:13: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:30:13: Entry (100473:1350:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:30:13: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:30:13: Entry (100473:1360:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:30:13: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:30:13: Entry (100473:1360:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:30:13: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:30:13: Entry (100473:1361:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:30:13: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:30:13: Entry (100473:1361:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:30:13: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:30:13: Entry (100473:1370:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:30:13: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:30:13: Entry (100473:1370:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:30:13: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:30:13: Entry (100473:1400:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:30:13: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:30:13: Entry (100473:1400:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:30:13: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:30:23: Access from local(IPV6) to FC:PC=100473:512 with NoUserLimit (Handle 792) 
+2023-09-12 11:30:23: Handle 792 released
+2023-09-12 11:42:59: Handle 796 released
+2023-09-12 11:42:59: Handle 731 released
+2023-09-12 11:42:59: Handle 736 released
+2023-09-12 11:42:59: Handle 761 released
+2023-09-12 11:42:59: Handle 720 released
+2023-09-12 11:42:59: Handle 742 released
+2023-09-12 11:42:59: Handle 749 released
+2023-09-12 11:42:59: Handle 758 released
+2023-09-12 11:42:59: Handle 715 released
+2023-09-12 11:43:08: Access from local(IPV6)(GOMPC\user,libTomMGomPro.dll) to FC:PC=100473:1280 with NoUserLimit (Handle 783) 
+2023-09-12 11:43:08: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1280:1024 with StationShare Mode (Handle 759) 
+2023-09-12 11:43:08: Entry (100473:1282:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:43:08: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:43:08: Entry (100473:1282:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:43:08: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:43:08: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1283:1024 with StationShare Mode (Handle 788) 
+2023-09-12 11:43:08: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1300:1024 with StationShare Mode (Handle 793) 
+2023-09-12 11:43:08: Entry (100473:1301:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:43:08: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:43:08: Entry (100473:1301:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:43:08: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:43:08: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1302:1024 with StationShare Mode (Handle 772) 
+2023-09-12 11:43:08: Entry (100473:1303:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:43:08: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:43:08: Entry (100473:1303:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:43:08: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:43:08: Entry (100473:1304:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:43:08: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:43:08: Entry (100473:1304:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:43:08: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:43:08: Entry (100473:1307:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:43:08: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:43:08: Entry (100473:1307:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:43:08: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:43:08: Entry (100473:1308:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:43:08: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:43:08: Entry (100473:1308:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:43:08: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:43:08: Entry (100473:1310:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:43:08: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:43:08: Entry (100473:1310:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:43:08: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:43:08: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1311:1024 with StationShare Mode (Handle 809) 
+2023-09-12 11:43:08: Entry (100473:1312:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:43:08: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:43:08: Entry (100473:1312:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:43:08: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:43:08: Entry (100473:1313:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:43:08: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:43:08: Entry (100473:1313:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:43:08: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:43:08: Entry (100473:1314:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:43:08: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:43:08: Entry (100473:1314:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:43:08: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:43:08: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1320:1024 with StationShare Mode (Handle 786) 
+2023-09-12 11:43:08: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1321:1024 with StationShare Mode (Handle 781) 
+2023-09-12 11:43:08: Entry (100473:1330:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:43:08: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:43:08: Entry (100473:1330:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:43:08: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:43:08: Entry (100473:1331:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:43:08: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:43:08: Entry (100473:1331:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:43:08: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:43:08: Entry (100473:1332:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:43:08: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:43:08: Entry (100473:1332:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:43:08: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:43:08: Entry (100473:1340:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:43:08: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:43:08: Entry (100473:1340:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:43:08: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:43:09: Access from local(IPV6)(GOMPC\user,ATOS) to FC:PC:FC=100473:1341:1024 with StationShare Mode (Handle 837) 
+2023-09-12 11:43:09: Entry (100473:1350:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:43:09: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:43:09: Entry (100473:1350:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:43:09: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:43:09: Entry (100473:1360:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:43:09: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:43:09: Entry (100473:1360:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:43:09: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:43:09: Entry (100473:1361:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:43:09: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:43:09: Entry (100473:1361:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:43:09: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:43:09: Entry (100473:1370:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:43:09: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:43:09: Entry (100473:1370:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:43:09: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:43:09: Entry (100473:1400:1024) not found - Event WB0200 (ENTRY NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:43:09: API Error 200 (ENTRY NOT FOUND) occurred!
+2023-09-12 11:43:09: Entry (100473:1400:1024) not found - Event WB0101 (SERVER NOT FOUND), Request IP-Address local(IPV6)(GOMPC\user,ATOS) with StationShare Mode
+2023-09-12 11:43:09: API Error 101 (SERVER NOT FOUND) occurred!
+2023-09-12 11:43:19: Access from local(IPV6) to FC:PC=100473:512 with NoUserLimit (Handle 854) 
+2023-09-12 11:43:19: Handle 854 released
+
+
+---
+Exit code: 0
+
